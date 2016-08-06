@@ -4,6 +4,7 @@
   "description": "",
   "main": "app.js",
   "scripts": {
+    "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
@@ -11,5 +12,8 @@
   "dependencies": {
     "express": "^4.14.0",
     "express-ws": "^2.0.0-rc.1"
+  },
+  "engines": {
+    "node": "4.3.2"
   }
 }
